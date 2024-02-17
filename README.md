@@ -1,4 +1,4 @@
-# cdev-eks-jenkins
+# cdev-eks
 
 This repository contains an implementation to deploy Jenkins on AWS EKS with Cluster.dev and Helm charts
 
