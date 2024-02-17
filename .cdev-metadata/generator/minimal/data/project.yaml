@@ -7,3 +7,4 @@ variables:
   state_bucket_name: /{ .bucket_name }/
   vpc_name: /{ .vpc_name }/
   eks_version: /{ .eks_version }/
+  cluster_name: /{ .cluster_name }/
