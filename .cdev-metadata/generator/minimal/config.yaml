@@ -1,4 +1,4 @@
-description: Serverless API on AWS Cloud
+description: Managed Kubernetes (EKS) on AWS Cloud
 options:
   - name: name
     description: Cluster name
