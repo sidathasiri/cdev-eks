@@ -22,7 +22,7 @@ options:
     default: 'cdev-state'
   - name: eks_version
     description: EKS version
-    default: 'cdev-state'
+    default: '1.29'
 help_message: |
   ###############################################################################
   # Cluster.dev project generation for AWS cloud.                                #
