@@ -1,9 +1,13 @@
 description: Managed Kubernetes (EKS) on AWS Cloud
 options:
+  - name: name
+    description: Project name
+    regex: "^[a-zA-Z][a-zA-Z_0-9\\-]{0,32}$"
+    default: 'cdev-eks'
   - name: cluster_name
     description: Cluster name
     regex: "^[a-zA-Z][a-zA-Z_0-9\\-]{0,32}$"
-    default: 'cdev-eks'
+    default: 'my-cluster'
   - name: organization
     description: Organization name
     regex: "^[a-zA-Z][a-zA-Z_0-9\\-]{0,64}$"
